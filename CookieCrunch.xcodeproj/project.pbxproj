@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B27EDC31961616F00ADFDFE /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27EDC21961616F00ADFDFE /* Cookie.swift */; };
+		8B27EDC51961645700ADFDFE /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27EDC41961645700ADFDFE /* Array2D.swift */; };
+		8B27EDC719616A7E00ADFDFE /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27EDC619616A7E00ADFDFE /* Set.swift */; };
+		8B27EDC919616B0D00ADFDFE /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B27EDC819616B0D00ADFDFE /* Level.swift */; };
 		8BDDD09F195C32C300E13FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDDD09E195C32C200E13FFA /* AppDelegate.swift */; };
-		8BDDD0A1195C32C300E13FFA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8BDDD0A0195C32C300E13FFA /* GameScene.sks */; };
 		8BDDD0A3195C32C300E13FFA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDDD0A2195C32C300E13FFA /* GameScene.swift */; };
 		8BDDD0A5195C32C300E13FFA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDDD0A4195C32C300E13FFA /* GameViewController.swift */; };
 		8BDDD0A8195C32C300E13FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BDDD0A6195C32C300E13FFA /* Main.storyboard */; };
 		8BDDD0AA195C32C300E13FFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BDDD0A9195C32C300E13FFA /* Images.xcassets */; };
 		8BDDD0B6195C32C300E13FFA /* CookieCrunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDDD0B5195C32C300E13FFA /* CookieCrunchTests.swift */; };
+		8BDDD0C0195C331A00E13FFA /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8BDDD0BF195C331A00E13FFA /* Sprites.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +31,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B27EDC21961616F00ADFDFE /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		8B27EDC41961645700ADFDFE /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		8B27EDC619616A7E00ADFDFE /* Set.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		8B27EDC819616B0D00ADFDFE /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 		8BDDD099195C32C200E13FFA /* CookieCrunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCrunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDDD09D195C32C200E13FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BDDD09E195C32C200E13FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BDDD0A0195C32C300E13FFA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		8BDDD0A2195C32C300E13FFA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		8BDDD0A4195C32C300E13FFA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		8BDDD0A7195C32C300E13FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,6 +45,7 @@
 		8BDDD0AF195C32C300E13FFA /* CookieCrunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieCrunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDDD0B4195C32C300E13FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BDDD0B5195C32C300E13FFA /* CookieCrunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCrunchTests.swift; sourceTree = "<group>"; };
+		8BDDD0BF195C331A00E13FFA /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +87,13 @@
 		8BDDD09B195C32C200E13FFA /* CookieCrunch */ = {
 			isa = PBXGroup;
 			children = (
+				8BDDD0BF195C331A00E13FFA /* Sprites.atlas */,
 				8BDDD09E195C32C200E13FFA /* AppDelegate.swift */,
-				8BDDD0A0195C32C300E13FFA /* GameScene.sks */,
 				8BDDD0A2195C32C300E13FFA /* GameScene.swift */,
+				8B27EDC21961616F00ADFDFE /* Cookie.swift */,
+				8B27EDC41961645700ADFDFE /* Array2D.swift */,
+				8B27EDC619616A7E00ADFDFE /* Set.swift */,
+				8B27EDC819616B0D00ADFDFE /* Level.swift */,
 				8BDDD0A4195C32C300E13FFA /* GameViewController.swift */,
 				8BDDD0A6195C32C300E13FFA /* Main.storyboard */,
 				8BDDD0A9195C32C300E13FFA /* Images.xcassets */,
@@ -196,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BDDD0AA195C32C300E13FFA /* Images.xcassets in Resources */,
-				8BDDD0A1195C32C300E13FFA /* GameScene.sks in Resources */,
+				8BDDD0C0195C331A00E13FFA /* Sprites.atlas in Resources */,
 				8BDDD0A8195C32C300E13FFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,8 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BDDD0A3195C32C300E13FFA /* GameScene.swift in Sources */,
+				8B27EDC919616B0D00ADFDFE /* Level.swift in Sources */,
+				8B27EDC31961616F00ADFDFE /* Cookie.swift in Sources */,
+				8B27EDC719616A7E00ADFDFE /* Set.swift in Sources */,
 				8BDDD0A5195C32C300E13FFA /* GameViewController.swift in Sources */,
 				8BDDD09F195C32C300E13FFA /* AppDelegate.swift in Sources */,
+				8B27EDC51961645700ADFDFE /* Array2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +421,7 @@
 				8BDDD0BB195C32C300E13FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BDDD0BC195C32C300E13FFA /* Build configuration list for PBXNativeTarget "CookieCrunchTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				8BDDD0BE195C32C300E13FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
