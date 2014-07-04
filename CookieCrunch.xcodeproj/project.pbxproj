@@ -24,6 +24,7 @@
 		8B61C3971963F60D00DFFE51 /* Ka-Ching.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B61C3911963F60D00DFFE51 /* Ka-Ching.wav */; };
 		8B61C3981963F60D00DFFE51 /* Mining by Moonlight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B61C3921963F60D00DFFE51 /* Mining by Moonlight.mp3 */; };
 		8B61C3991963F60D00DFFE51 /* Scrape.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8B61C3931963F60D00DFFE51 /* Scrape.wav */; };
+		8B61C39B19640B5700DFFE51 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B61C39A19640B5700DFFE51 /* Chain.swift */; };
 		8BC1CF021962B260003C6C64 /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1CF011962B260003C6C64 /* Swap.swift */; };
 		8BDDD09F195C32C300E13FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDDD09E195C32C200E13FFA /* AppDelegate.swift */; };
 		8BDDD0A3195C32C300E13FFA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDDD0A2195C32C300E13FFA /* GameScene.swift */; };
@@ -62,6 +63,7 @@
 		8B61C3911963F60D00DFFE51 /* Ka-Ching.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Ka-Ching.wav"; sourceTree = "<group>"; };
 		8B61C3921963F60D00DFFE51 /* Mining by Moonlight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mining by Moonlight.mp3"; sourceTree = "<group>"; };
 		8B61C3931963F60D00DFFE51 /* Scrape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Scrape.wav; sourceTree = "<group>"; };
+		8B61C39A19640B5700DFFE51 /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
 		8BC1CF011962B260003C6C64 /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
 		8BDDD099195C32C200E13FFA /* CookieCrunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCrunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BDDD09D195C32C200E13FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,21 +142,22 @@
 		8BDDD09B195C32C200E13FFA /* CookieCrunch */ = {
 			isa = PBXGroup;
 			children = (
-				8B61C38D1963F60D00DFFE51 /* Sounds */,
-				8B27EDCA1961734F00ADFDFE /* Levels */,
-				8BDDD0BF195C331A00E13FFA /* Sprites.atlas */,
 				8BDDD09E195C32C200E13FFA /* AppDelegate.swift */,
-				8BDDD0A2195C32C300E13FFA /* GameScene.swift */,
-				8BC1CF011962B260003C6C64 /* Swap.swift */,
-				8B27EDC21961616F00ADFDFE /* Cookie.swift */,
-				8B27EDC41961645700ADFDFE /* Array2D.swift */,
-				8B27EDC619616A7E00ADFDFE /* Set.swift */,
-				8B27EDC819616B0D00ADFDFE /* Level.swift */,
 				8B27EDD71961751500ADFDFE /* Extensions.swift */,
+				8B27EDC619616A7E00ADFDFE /* Set.swift */,
+				8B27EDC41961645700ADFDFE /* Array2D.swift */,
+				8BC1CF011962B260003C6C64 /* Swap.swift */,
+				8B61C39A19640B5700DFFE51 /* Chain.swift */,
+				8B27EDC21961616F00ADFDFE /* Cookie.swift */,
+				8B27EDC819616B0D00ADFDFE /* Level.swift */,
 				8B27EDD51961739300ADFDFE /* Tile.swift */,
+				8BDDD0A2195C32C300E13FFA /* GameScene.swift */,
 				8BDDD0A4195C32C300E13FFA /* GameViewController.swift */,
 				8BDDD0A6195C32C300E13FFA /* Main.storyboard */,
 				8BDDD0A9195C32C300E13FFA /* Images.xcassets */,
+				8BDDD0BF195C331A00E13FFA /* Sprites.atlas */,
+				8B27EDCA1961734F00ADFDFE /* Levels */,
+				8B61C38D1963F60D00DFFE51 /* Sounds */,
 				8BDDD09C195C32C200E13FFA /* Supporting Files */,
 			);
 			path = CookieCrunch;
@@ -299,6 +302,7 @@
 				8BDDD0A3195C32C300E13FFA /* GameScene.swift in Sources */,
 				8B27EDD81961751500ADFDFE /* Extensions.swift in Sources */,
 				8B27EDC919616B0D00ADFDFE /* Level.swift in Sources */,
+				8B61C39B19640B5700DFFE51 /* Chain.swift in Sources */,
 				8B27EDC31961616F00ADFDFE /* Cookie.swift in Sources */,
 				8BC1CF021962B260003C6C64 /* Swap.swift in Sources */,
 				8B27EDD61961739300ADFDFE /* Tile.swift in Sources */,
